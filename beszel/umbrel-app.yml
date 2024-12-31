@@ -1,0 +1,35 @@
+manifestVersion: 1.1
+id: beszel
+name: Beszel
+tagline: Easy to use system monitoring
+catagory: developer
+version: "0.9.0"
+port: 8090
+description: >-
+  Beszel is an open-source easy to use system monitoring software.
+
+  -- SETUP INSTRUCTIONS --
+
+  After installing Beszel, navigate to umbrel.local:8090, and create an account. Then, add the first system, either using Docker, or the binary files provided in GitHub.
+developer: Beszel
+website: https://beszel.dev
+submitter: Antony Martin-Czeti
+repo: https://github.com/henrygd/beszel
+support: https://github.com/henrygd/beszel/discussions
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+releaseNotes: >-
+  -- NEW FEATURES --
+  USER_CREATION environment variable to allow automatic creation of user accounts via OAuth.
+  Grid view option for systems table
+  Agent install script: Add checksum support and mirrors for mainland China
+  New PocketBase features like batch API and rate limiting.
+
+  -- BUG FIXES --
+  Fixed IPv6 connection problem
+
+  Full release notes can be found at https://github.com/henrygd/beszel/releases/
+dependencies: []
+path: ""
